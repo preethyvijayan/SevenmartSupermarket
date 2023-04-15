@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 24.521 s <<< FAILURE! - in TestSuite
+com.obsqura.testscripts.LoginTest.loginwithValidusernameandPassword[admin, admin123](2)  Time elapsed: 0.469 s  <<< FAILURE!
+java.lang.AssertionError: Wrong username and password expected [true] but found [false]
+	at com.obsqura.testscripts.LoginTest.loginwithValidusernameandPassword(LoginTest.java:25)
+
+com.obsqura.testscripts.LoginTest.loginwithValidusernameandPassword[admin111, admin](3)  Time elapsed: 0.509 s  <<< FAILURE!
+java.lang.AssertionError: Wrong username and password expected [false] but found [true]
+	at com.obsqura.testscripts.LoginTest.loginwithValidusernameandPassword(LoginTest.java:25)
+
